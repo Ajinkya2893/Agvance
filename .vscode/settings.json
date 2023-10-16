@@ -1,0 +1,11 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.configuration.runtimes": [
+        
+
+    ],
+    "java.jdt.ls.java.home": "",
+    "maven.view": "flat",
+    "java.configuration.updateBuildConfiguration": "automatic"
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceLabs" parallel="none">
+
+	<test name="Verify Job Ticket">
+		<classes>
+			<class name="com.agvance.verifyDashboard.JobType" />
+		</classes>
+	</test>
+
+	<test name="Complete a Blend Job">
+		<classes>
+			<class name="com.agvance.ticketComplete.BlendJobTicket" />
+		</classes>
+	</test>
+
+	<test name="Api Verification of Completed Blend Job">
+		<classes>
+			<class name="com.agvance.ticketComplete.ApiVerification" />
+		</classes>
+	</test>
+
+	<test name="Complete a Delivery Job">
+		<classes>
+			<class name="com.agvance.ticketComplete.DeliveryJobTicket" />
+		</classes>
+	</test>
+</suite>
